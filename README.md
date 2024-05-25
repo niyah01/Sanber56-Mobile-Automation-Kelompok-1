@@ -22,8 +22,8 @@ Quiz 3 Mobile automation test dengan menggunakan Robot Framework Kelompok 1
 - │   │   ├── test_case_1.robot
 - │   │   ├── test_case_2.robot
 - │   └── test_suite_2/
-- │       ├── test_case_1.robot
-- │       ├── test_case_2.robot
+- │   │   ├── test_case_1.robot
+- │   │   ├── test_case_2.robot
 - ├── resources/
 - │   ├── keywords.robot
 - │   ├── variables.robot
