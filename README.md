@@ -9,7 +9,7 @@ Quiz 3 Mobile automation test dengan menggunakan Robot Framework Kelompok 1
 5. Budi Haryanto.
 
 ### Pembagian Tugas :
-1. Sign in (Negative cases regarding Email + Positive case) = Fajra Husniyah
+1. Sign in (Negative cases regarding Username + Positive case) = Fajra Husniyah
 2. Sign in (Negative cases regarding Password + Positive case) = Budi Haryanto
 3. Book One Away = Vladdy Purba
 4. Book Round Trip = Adil Abdul Hakim
