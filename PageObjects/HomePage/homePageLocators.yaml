@@ -1,0 +1,3 @@
+verify_home_page: '//android.widget.ImageView[@resource-id="com.example.myapplication:id/imageView4"]'
+signIn_button_home_page: '//android.widget.Button[@resource-id="com.example.myapplication:id/login"]'
+success_signIn: '//android.widget.TextView[@resource-id="com.example.myapplication:id/textView"]'
