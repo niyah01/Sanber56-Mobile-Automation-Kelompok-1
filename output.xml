@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.12.3 on win32)" generated="2024-05-29T13:02:09.150553" rpa="false" schemaversion="5">
+<suite id="s1" name="loginUsername" source="C:\Users\User\Sanber56-Mobile-Automation-Kelompok-1\Suites\loginUsername.robot">
+<test id="s1-t1" name="User Should Be Able To Sign In With Valid Credentials" line="17">
+<kw name="Run Keywords" owner="BuiltIn" type="SETUP">
+<kw name="Open The Flight Application" owner="base">
+<kw name="Open Application">
+<msg time="2024-05-29T13:02:09.394042" level="FAIL">No keyword with name 'Open Application' found.</msg>
+<arg>${REMOTE_URL}</arg>
+<arg>platformName=${PLATFORM_NAME}</arg>
+<arg>platformVersion=${PLATFORM_VERSION}</arg>
+<arg>deviceName=${DEVICE_NAME}</arg>
+<arg>appPackage=${APP_PACKAGE}</arg>
+<arg>appActivity=${APP_ACTIVITY}</arg>
+<status status="FAIL" start="2024-05-29T13:02:09.394042" elapsed="0.000000">No keyword with name 'Open Application' found.</status>
+</kw>
+<status status="FAIL" start="2024-05-29T13:02:09.391051" elapsed="0.002991">No keyword with name 'Open Application' found.</status>
+</kw>
+<arg>Open The Flight Application</arg>
+<arg>AND</arg>
+<arg>Verify That The Home Page Appears</arg>
+<arg>AND</arg>
+<arg>Click The Sign In Button On The Home Page</arg>
+<doc>Executes all the given keywords in a sequence.</doc>
+<status status="FAIL" start="2024-05-29T13:02:09.390017" elapsed="0.004025">No keyword with name 'Open Application' found.</status>
+</kw>
+<kw name="Close The Flight Application" owner="base" type="TEARDOWN">
+<kw name="Close Application">
+<msg time="2024-05-29T13:02:09.395822" level="FAIL">No keyword with name 'Close Application' found.</msg>
+<status status="FAIL" start="2024-05-29T13:02:09.395822" elapsed="0.000000">No keyword with name 'Close Application' found.</status>
+</kw>
+<status status="FAIL" start="2024-05-29T13:02:09.394819" elapsed="0.001003">No keyword with name 'Close Application' found.</status>
+</kw>
+<status status="FAIL" start="2024-05-29T13:02:09.389020" elapsed="0.007784">Setup failed:
+No keyword with name 'Open Application' found.
+
+Also teardown failed:
+No keyword with name 'Close Application' found.</status>
+</test>
+<test id="s1-t2" name="User Should Be Unable To Sign In With An Invalid Username" line="23">
+<kw name="Run Keywords" owner="BuiltIn" type="SETUP">
+<kw name="Open The Flight Application" owner="base">
+<kw name="Open Application">
+<msg time="2024-05-29T13:02:09.401816" level="FAIL">No keyword with name 'Open Application' found.</msg>
+<arg>${REMOTE_URL}</arg>
+<arg>platformName=${PLATFORM_NAME}</arg>
+<arg>platformVersion=${PLATFORM_VERSION}</arg>
+<arg>deviceName=${DEVICE_NAME}</arg>
+<arg>appPackage=${APP_PACKAGE}</arg>
+<arg>appActivity=${APP_ACTIVITY}</arg>
+<status status="FAIL" start="2024-05-29T13:02:09.401816" elapsed="0.000000">No keyword with name 'Open Application' found.</status>
+</kw>
+<status status="FAIL" start="2024-05-29T13:02:09.399825" elapsed="0.001991">No keyword with name 'Open Application' found.</status>
+</kw>
+<arg>Open The Flight Application</arg>
+<arg>AND</arg>
+<arg>Verify That The Home Page Appears</arg>
+<arg>AND</arg>
+<arg>Click The Sign In Button On The Home Page</arg>
+<doc>Executes all the given keywords in a sequence.</doc>
+<status status="FAIL" start="2024-05-29T13:02:09.399825" elapsed="0.001991">No keyword with name 'Open Application' found.</status>
+</kw>
+<kw name="Close The Flight Application" owner="base" type="TEARDOWN">
+<kw name="Close Application">
+<msg time="2024-05-29T13:02:09.403773" level="FAIL">No keyword with name 'Close Application' found.</msg>
+<status status="FAIL" start="2024-05-29T13:02:09.403773" elapsed="0.000000">No keyword with name 'Close Application' found.</status>
+</kw>
+<status status="FAIL" start="2024-05-29T13:02:09.402775" elapsed="0.000998">No keyword with name 'Close Application' found.</status>
+</kw>
+<status status="FAIL" start="2024-05-29T13:02:09.398798" elapsed="0.005658">Setup failed:
+No keyword with name 'Open Application' found.
+
+Also teardown failed:
+No keyword with name 'Close Application' found.</status>
+</test>
+<test id="s1-t3" name="User Should Be Unable To Sign In With An Empty Username" line="31">
+<kw name="Run Keywords" owner="BuiltIn" type="SETUP">
+<kw name="Open The Flight Application" owner="base">
+<kw name="Open Application">
+<msg time="2024-05-29T13:02:09.408997" level="FAIL">No keyword with name 'Open Application' found.</msg>
+<arg>${REMOTE_URL}</arg>
+<arg>platformName=${PLATFORM_NAME}</arg>
+<arg>platformVersion=${PLATFORM_VERSION}</arg>
+<arg>deviceName=${DEVICE_NAME}</arg>
+<arg>appPackage=${APP_PACKAGE}</arg>
+<arg>appActivity=${APP_ACTIVITY}</arg>
+<status status="FAIL" start="2024-05-29T13:02:09.408997" elapsed="0.000000">No keyword with name 'Open Application' found.</status>
+</kw>
+<status status="FAIL" start="2024-05-29T13:02:09.407003" elapsed="0.001994">No keyword with name 'Open Application' found.</status>
+</kw>
+<arg>Open The Flight Application</arg>
+<arg>AND</arg>
+<arg>Verify That The Home Page Appears</arg>
+<arg>AND</arg>
+<arg>Click The Sign In Button On The Home Page</arg>
+<doc>Executes all the given keywords in a sequence.</doc>
+<status status="FAIL" start="2024-05-29T13:02:09.407003" elapsed="0.001994">No keyword with name 'Open Application' found.</status>
+</kw>
+<kw name="Close The Flight Application" owner="base" type="TEARDOWN">
+<kw name="Close Application">
+<msg time="2024-05-29T13:02:09.410544" level="FAIL">No keyword with name 'Close Application' found.</msg>
+<status status="FAIL" start="2024-05-29T13:02:09.410544" elapsed="0.000000">No keyword with name 'Close Application' found.</status>
+</kw>
+<status status="FAIL" start="2024-05-29T13:02:09.409764" elapsed="0.000780">No keyword with name 'Close Application' found.</status>
+</kw>
+<status status="FAIL" start="2024-05-29T13:02:09.407003" elapsed="0.004745">Setup failed:
+No keyword with name 'Open Application' found.
+
+Also teardown failed:
+No keyword with name 'Close Application' found.</status>
+</test>
+<status status="FAIL" start="2024-05-29T13:02:09.153970" elapsed="0.259567"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="3" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="3" skip="0" id="s1" name="loginUsername">loginUsername</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2024-05-29T13:02:09.362199" level="ERROR">Error in file 'C:\Users\User\Sanber56-Mobile-Automation-Kelompok-1\PageObjects\base.robot' on line 3: Importing library 'AppiumLibrary' failed: ModuleNotFoundError: No module named 'appium.webdriver.common.touch_action'
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\site-packages\AppiumLibrary\__init__.py", line 4, in &lt;module&gt;
+    from AppiumLibrary.keywords import *
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\site-packages\AppiumLibrary\keywords\__init__.py", line 9, in &lt;module&gt;
+    from ._touch import _TouchKeywords
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\site-packages\AppiumLibrary\keywords\_touch.py", line 3, in &lt;module&gt;
+    from appium.webdriver.common.touch_action import TouchAction
+PYTHONPATH:
+  C:\Users\User\AppData\Local\Programs\Python\Python312\Scripts\robot.exe
+  C:\Users\User\AppData\Local\Programs\Python\Python312\python312.zip
+  C:\Users\User\AppData\Local\Programs\Python\Python312\DLLs
+  C:\Users\User\AppData\Local\Programs\Python\Python312\Lib
+  C:\Users\User\AppData\Local\Programs\Python\Python312
+  C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\site-packages</msg>
+<msg time="2024-05-29T13:02:09.374907" level="ERROR">Error in file 'C:\Users\User\Sanber56-Mobile-Automation-Kelompok-1\PageObjects\HomePage\homePage.robot' on line 4: Processing variable file 'C:\Users\User\Sanber56-Mobile-Automation-Kelompok-1\PageObjects\HomePage\homePageLocators.yaml' failed: Using YAML variable files requires PyYAML module to be installed. Typically you can install it by running `pip install pyyaml`.</msg>
+<msg time="2024-05-29T13:02:09.383035" level="ERROR">Error in file 'C:\Users\User\Sanber56-Mobile-Automation-Kelompok-1\PageObjects\LoginPage\loginPage.robot' on line 3: Importing library 'C:\Users\User\Sanber56-Mobile-Automation-Kelompok-1\Library\randomUsername.py' failed: ModuleNotFoundError: No module named 'faker'
+Traceback (most recent call last):
+  File "C:\Users\User\Sanber56-Mobile-Automation-Kelompok-1\Library\randomUsername.py", line 1, in &lt;module&gt;
+    from faker import Faker
+PYTHONPATH:
+  C:\Users\User\Sanber56-Mobile-Automation-Kelompok-1\Library
+  C:\Users\User\AppData\Local\Programs\Python\Python312\Scripts\robot.exe
+  C:\Users\User\AppData\Local\Programs\Python\Python312\python312.zip
+  C:\Users\User\AppData\Local\Programs\Python\Python312\DLLs
+  C:\Users\User\AppData\Local\Programs\Python\Python312\Lib
+  C:\Users\User\AppData\Local\Programs\Python\Python312
+  C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\site-packages</msg>
+<msg time="2024-05-29T13:02:09.386040" level="ERROR">Error in file 'C:\Users\User\Sanber56-Mobile-Automation-Kelompok-1\PageObjects\LoginPage\loginPage.robot' on line 5: Processing variable file 'C:\Users\User\Sanber56-Mobile-Automation-Kelompok-1\PageObjects\LoginPage\loginPageLocators.yaml' failed: Using YAML variable files requires PyYAML module to be installed. Typically you can install it by running `pip install pyyaml`.</msg>
+</errors>
+</robot>
