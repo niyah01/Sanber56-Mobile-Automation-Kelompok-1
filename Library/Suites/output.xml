@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.12.3 on win32)" generated="2024-05-29T14:20:47.682372" rpa="false" schemaversion="5">
+<suite id="s1" name="Login" source="C:\Users\User\Sanber56-Mobile-Automation-Kelompok-1\Library\Suites\Login.robot">
+<test id="s1-t1" name="User should be able to login with valid credential" line="53">
+<kw name="Open Flight Application">
+<kw name="Open Application" owner="AppiumLibrary">
+<arg>${REMOTE_URL}</arg>
+<arg>platformName=${PLATFORM_NAME}</arg>
+<arg>platformVersion=${PLATFORM_VERSION}</arg>
+<arg>deviceName=${DEVICE_NAME}</arg>
+<arg>appPackage=${APP_PACKAGE}</arg>
+<arg>appActivity=${APP_ACTIVITY}</arg>
+<doc>Opens a new application to given Appium server.
+Capabilities of appium server, Android and iOS,
+Please check https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/server-args.md
+| *Option*            | *Man.* | *Description*     |
+| remote_url          | Yes    | Appium server url |
+| alias               | no     | alias             |
+| strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |</doc>
+<status status="PASS" start="2024-05-29T14:20:47.974428" elapsed="13.121737"/>
+</kw>
+<status status="PASS" start="2024-05-29T14:20:47.973431" elapsed="13.122734"/>
+</kw>
+<kw name="Verify Home Screen Appears">
+<kw name="Element Should Be Visible" owner="AppiumLibrary">
+<msg time="2024-05-29T14:21:03.259300" level="INFO">xpath criteria: //android.widget.ImageView[@resource-id="com.example.myapplication:id/imageView4"]</msg>
+<arg>locator=//android.widget.ImageView[@resource-id="com.example.myapplication:id/imageView4"]</arg>
+<doc>Verifies that element identified with locator is visible.</doc>
+<status status="PASS" start="2024-05-29T14:21:01.097163" elapsed="2.162137"/>
+</kw>
+<status status="PASS" start="2024-05-29T14:21:01.097163" elapsed="2.162137"/>
+</kw>
+<kw name="Click Sign In Button On Home Screen">
+<kw name="Click Element" owner="AppiumLibrary">
+<msg time="2024-05-29T14:21:03.263268" level="INFO">Clicking element '//android.widget.Button[@resource-id="com.example.myapplication:id/login"]'.</msg>
+<msg time="2024-05-29T14:21:03.580988" level="INFO">xpath criteria: //android.widget.Button[@resource-id="com.example.myapplication:id/login"]</msg>
+<arg>locator=//android.widget.Button[@resource-id="com.example.myapplication:id/login"]</arg>
+<doc>Click element identified by `locator`.</doc>
+<status status="PASS" start="2024-05-29T14:21:03.261272" elapsed="0.319716"/>
+</kw>
+<status status="PASS" start="2024-05-29T14:21:03.260275" elapsed="0.320713"/>
+</kw>
+<kw name=" Input Username">
+<kw name="Wait Until Element Is Visible" owner="AppiumLibrary">
+<msg time="2024-05-29T14:21:05.778940" level="INFO">xpath criteria: //android.widget.EditText[@resource-id="com.example.myapplication:id/username"]
+xpath criteria: //android.widget.EditText[@resource-id="com.example.myapplication:id/username"]</msg>
+<arg>locator=//android.widget.EditText[@resource-id="com.example.myapplication:id/username"]</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" start="2024-05-29T14:21:03.581982" elapsed="2.196958"/>
+</kw>
+<kw name="Input Text" owner="AppiumLibrary">
+<msg time="2024-05-29T14:21:05.781932" level="INFO">Typing text 'admin' into text field '//android.widget.EditText[@resource-id="com.example.myapplication:id/username"]'</msg>
+<msg time="2024-05-29T14:21:06.106115" level="INFO">xpath criteria: //android.widget.EditText[@resource-id="com.example.myapplication:id/username"]</msg>
+<arg>locator=//android.widget.EditText[@resource-id="com.example.myapplication:id/username"]</arg>
+<arg>text=admin</arg>
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<status status="PASS" start="2024-05-29T14:21:05.778940" elapsed="0.327175"/>
+</kw>
+<status status="PASS" start="2024-05-29T14:21:03.581982" elapsed="2.524133"/>
+</kw>
+<kw name=" Input Password">
+<kw name="Input Text" owner="AppiumLibrary">
+<msg time="2024-05-29T14:21:06.110105" level="INFO">Typing text 'password' into text field '//android.widget.EditText[@resource-id="com.example.myapplication:id/password"]'</msg>
+<msg time="2024-05-29T14:21:06.632034" level="INFO">xpath criteria: //android.widget.EditText[@resource-id="com.example.myapplication:id/password"]</msg>
+<arg>locator=//android.widget.EditText[@resource-id="com.example.myapplication:id/password"]</arg>
+<arg>text=password</arg>
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<status status="PASS" start="2024-05-29T14:21:06.107113" elapsed="0.524921"/>
+</kw>
+<status status="PASS" start="2024-05-29T14:21:06.107113" elapsed="0.524921"/>
+</kw>
+<kw name="Click Login Button">
+<kw name="Click Element" owner="AppiumLibrary">
+<msg time="2024-05-29T14:21:06.635598" level="INFO">Clicking element '//android.widget.Button[@resource-id="com.example.myapplication:id/signIn"]'.</msg>
+<msg time="2024-05-29T14:21:09.585776" level="INFO">xpath criteria: //android.widget.Button[@resource-id="com.example.myapplication:id/signIn"]</msg>
+<arg>locator=//android.widget.Button[@resource-id="com.example.myapplication:id/signIn"]</arg>
+<doc>Click element identified by `locator`.</doc>
+<status status="PASS" start="2024-05-29T14:21:06.633031" elapsed="2.952745"/>
+</kw>
+<status status="PASS" start="2024-05-29T14:21:06.633031" elapsed="2.952745"/>
+</kw>
+<status status="PASS" start="2024-05-29T14:20:47.972434" elapsed="21.614333"/>
+</test>
+<status status="PASS" start="2024-05-29T14:20:47.683360" elapsed="21.905400"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Login">Login</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2024-05-29T14:20:47.676381" level="WARN">Error in file 'C:\Users\User\Sanber56-Mobile-Automation-Kelompok-1\Library\Suites\Login.robot' on line 4: Singular section headers like '*** Variable ***' are deprecated. Use plural format like '*** Variables ***' instead.</msg>
+</errors>
+</robot>
