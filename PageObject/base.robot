@@ -2,8 +2,8 @@
 Library             AppiumLibrary
 
 *** Variables ***
-${Admin_Text}        admin
-${Password_Text}     password
+${Admin_Text}        support@ngendigital.com
+${Password_Text}     abc123
 
 ${REMOTE_URL}            http://127.0.0.1:4723/wd/hub
 ${PLATFORM_NAME}         Android

@@ -12,5 +12,5 @@ Click Sign In Button On Home Screen
     Click Element                 locator=//android.widget.Button[@resource-id="com.example.myapplication:id/login"]
 
 Verify Success Login
-    Wait Until Element Is Visible    locator=//android.widget.TextView[@resource-id="com.example.myapplication:id/textView"]
-    Element Should Be Visible     locator=//android.widget.TextView[@resource-id="com.example.myapplication:id/textView"]
+    Wait Until Element Is Visible    locator=//android.widget.TextView[@resource-id="com.example.myapplication:id/textView"]     timeout=10s
+    Element Should Be Visible        locator=//android.widget.TextView[@resource-id="com.example.myapplication:id/textView"]
