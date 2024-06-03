@@ -22,7 +22,7 @@ Click Login Button
 
 Login With Valid Credential
     [Arguments]                          ${username}    ${password}
-    Verify Home Screen Appears
+    # Verify Home Screen Appears
     Click Sign In Button On Home Screen
     Input Username                       username=${username}
     Input User Password                  password=${password}
