@@ -16,5 +16,6 @@ Verify Success Login
     Wait Until Element Is Visible    locator=//android.widget.TextView[@resource-id="com.example.myapplication:id/textView"] 
     Element Should Be Visible        locator=//android.widget.TextView[@resource-id="com.example.myapplication:id/textView"]
 
-# Verify Failed Login
+Verify Failed Login
+    Page Should Contain Text    text=Invalid username/password
     

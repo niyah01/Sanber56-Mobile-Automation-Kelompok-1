@@ -37,7 +37,7 @@ User should be able to login with invalid password
     Input Username             username=${VALID_USERNAME}
     Input User Password        password=${INVALID_PASSWORD}
     Click Login Button
-    Verify Success Login
+    Verify Failed Login
 
 
 
